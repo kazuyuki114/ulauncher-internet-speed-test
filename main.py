@@ -67,7 +67,7 @@ class InternetSpeedTestEventListener(EventListener):
         ))
 
         items.append(ExtensionResultItem(
-            icon='images/server.png',
+            icon='images/hosting.png',
             name=f"Server: {server_sponsor} ({host_name})",
             description=f"Server: {server_sponsor}(Host: {host_name}) located in {server_city}, {server_country}",
             on_enter=CopyToClipboardAction(f"Server: {server_sponsor} ({host_name})")

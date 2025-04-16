@@ -3,12 +3,12 @@
   "name": "Internet Speed Test",
   "description": "Instantly view real‑time Internet speed test results from Ulauncher for quick Internet health insights.",
   "developer_name": "Kazuyuki",
-  "icon": "images/Internet.png",
+  "icon": "images/network.png",
   "triggers": {
     "copy": {
       "name": "Internet Speed Test",
       "description": "Real‑time Internet speed test results",
-      "keyword": "net"
+      "keyword": "st"
     }
   },
   "options": {
@@ -20,7 +20,7 @@
       "type": "keyword",
       "name": "Keyword",
       "description": "Change keyword",
-      "default_value": "sys"
+      "default_value": "st"
     }
   ]
 }
