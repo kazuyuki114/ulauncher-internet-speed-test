@@ -1,0 +1,26 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Internet Speed Test",
+  "description": "Instantly view real‑time Internet speed test results from Ulauncher for quick Internet health insights.",
+  "developer_name": "Kazuyuki",
+  "icon": "images/Internet.png",
+  "triggers": {
+    "copy": {
+      "name": "Internet Speed Test",
+      "description": "Real‑time Internet speed test results",
+      "keyword": "net"
+    }
+  },
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "recents_kw",
+      "type": "keyword",
+      "name": "Keyword",
+      "description": "Change keyword",
+      "default_value": "sys"
+    }
+  ]
+}
